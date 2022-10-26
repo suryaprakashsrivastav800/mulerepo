@@ -33,7 +33,7 @@
 
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2.2</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 						<server>Exchange2</server>
 						<applicationName>contactdetailssvc</applicationName>
 						<environment>Sandbox</environment>
