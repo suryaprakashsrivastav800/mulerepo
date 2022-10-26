@@ -29,6 +29,25 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>3.6.3</muleVersion>
+						<server>Exchange2</server>
+						<applicationName>contactdetailssvc</applicationName>
+						<environment>Sandbox</environment>
+						<region>us-east-1</region>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<anypoint.platform.client_id>19f3c77ac02f4d339ac21d506140a050</anypoint.platform.client_id>
+							<anypoint.platform.secret>2eC992C331264FddBe8E6B5877015e37</anypoint.platform.secret>
+						</properties>
+					</cloudHubDeployment>
+
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
