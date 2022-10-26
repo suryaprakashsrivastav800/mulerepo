@@ -42,8 +42,8 @@
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
-							<anypoint.platform.client_id>19f3c77ac02f4d339ac21d506140a050</anypoint.platform.client_id>
-							<anypoint.platform.secret>2eC992C331264FddBe8E6B5877015e37</anypoint.platform.secret>
+							<anypoint.platform.client_id>48df6428216b44eab2552d3930e0e07c</anypoint.platform.client_id>
+							<anypoint.platform.secret>E19Ce171a714429d89E867Ea48F64501</anypoint.platform.secret>
 						</properties>
 					</cloudHubDeployment>
 
