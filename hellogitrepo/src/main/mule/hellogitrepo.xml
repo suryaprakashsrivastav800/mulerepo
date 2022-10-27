@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="27a7ce5a-1b2c-4d87-84cf-548cea848ba7" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8082" protocol="HTTPS"/>
 	</http:listener-config>
 	<flow name="hellogitrepoFlow" doc:id="04dcfd16-9248-4d9a-829c-bb6a2e1f0d10" >
 		<http:listener doc:name="Listener" doc:id="9b48782c-4506-41d4-8627-c43d054e661b" config-ref="HTTP_Listener_config" path="/hellogit"/>
