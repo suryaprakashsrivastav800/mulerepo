@@ -46,11 +46,11 @@
 							<anypoint.platform.secret>E19Ce171a714429d89E867Ea48F64501</anypoint.platform.secret>
 						</properties>
 						<objectStoreV2>true</objectStoreV2> 
-						<runtimeFabricDeployment>
+						
      
       <skipDeploymentVerification>true</skipDeploymentVerification>
       
-    </runtimeFabricDeployment>
+    
 					</cloudHubDeployment>
                  
 				</configuration>
