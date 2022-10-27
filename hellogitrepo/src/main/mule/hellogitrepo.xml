@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="27a7ce5a-1b2c-4d87-84cf-548cea848ba7" >
 		<http:listener-connection host="0.0.0.0" port="8082" protocol="HTTPS" >
 			<tls:context >
-					<tls:key-store type="jks" path="C:\Users\Admin\ssl\keystore.jks" keyPassword="mypassword" password="mypassword" />
+				<tls:key-store type="jks" path="C:\Users\Admin\ssl\keystore.jks" keyPassword="mypassword" password="mypassword" />
 				</tls:context>
 	    </http:listener-connection>		
 	</http:listener-config>
