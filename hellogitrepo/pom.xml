@@ -47,7 +47,11 @@
 						</properties>
 						<objectStoreV2>true</objectStoreV2> 
 					</cloudHubDeployment>
-
+                 <runtimeFabricDeployment>
+     
+      <skipDeploymentVerification>true</skipDeploymentVerification>
+      
+    </runtimeFabricDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
